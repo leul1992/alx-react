@@ -2,3 +2,11 @@
     border: 2px dotted rgb(246, 47, 47);
     padding: 2px;
 }
+
+ul li[data='default'] {
+	color: blue;
+}
+
+ul li[data='urgent'] {
+	color: red;
+}
