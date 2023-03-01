@@ -11,4 +11,4 @@ function updateCounter() {
     cou += 1;
     $('#count').html(`${cou} clicks on the button`);
 }
-$("button").on("click", _.debounce(updateCounter, 500))
+$("button").on("click", _.debounce(updateCounter, 400))
