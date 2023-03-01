@@ -5,7 +5,7 @@ import closeIcon from './close-icon.png'
 function Notifications(){
     return (
         <div className="Notifications">
-            <p>Here is the list of Notifications</p>
+            <p>Here is the list of notifications</p>
             <button style={{ position: 'absolute', top: '7px', right: '7px', border: 'none', background: 'none', padding: '0' }}
 				aria-label='Close'
 				onClick={console.log('Close button has been clicked')}
