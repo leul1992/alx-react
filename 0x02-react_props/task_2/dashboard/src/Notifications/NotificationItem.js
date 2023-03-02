@@ -2,10 +2,10 @@ import React from 'react';
 
 function NotificationItem({ type, html, value }) {
   return (
-    value ? 
+    value ?
     <li
     data-notification-type={type}
-    >{value}</li> 
+    >{value}</li>
     :
     <li
     data-notification-type={type}
