@@ -13,7 +13,7 @@ class BodySectionWithMarginBottom extends Component {
   }
 }
 
-BodySectionWithMarginBottom. defaultProps = {
+BodySectionWithMarginBottom.defaultProps = {
 	children: <React.Fragment />
 };
 
