@@ -51,7 +51,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Notification listNotifications={this.listNotifications}/>
-        <div className={css(bodyStyles.App)}>
+        <div className={css(body.App)}>
           <Header />
           {this.props.isLoggedIn ?
             <BodySectionWithMarginBottom title="Course list"><CourseList listCourses={this.listCourses}/></BodySectionWithMarginBottom>
@@ -70,7 +70,7 @@ class App extends React.Component {
   }
 }
 
-const bodyStyles = StyleSheet.create({
+const body = StyleSheet.create({
   App: {
     position: 'relative',
     minHeight: '100vh'
