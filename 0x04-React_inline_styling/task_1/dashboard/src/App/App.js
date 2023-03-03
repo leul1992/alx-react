@@ -51,8 +51,8 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Notification listNotifications={this.listNotifications}/>
-        <div className={css(bodyStyles.App)}>
           <Header />
+        <div className={css(bodyStyles.App)}>
           {this.props.isLoggedIn ?
             <BodySectionWithMarginBottom title="Course list"><CourseList listCourses={this.listCourses}/></BodySectionWithMarginBottom>
           : 
