@@ -6,14 +6,14 @@ import { StyleSheet, css } from 'aphrodite';
 class BodySectionWithMarginBottom extends Component {
   render() {
     return (
-      <div className={css(bodyStylesWithMargin.marginBottom)}>
+      <div className={css(bodyStyles.marginBottom)}>
         <BodySection {...this.props}/>
       </div>
     );
   }
 }
 
-const bodyStylesWithMargin = StyleSheet.create({
+const bodyStyles = StyleSheet.create({
 	marginBottom: {
 		marginBottom: '40px'
 	}

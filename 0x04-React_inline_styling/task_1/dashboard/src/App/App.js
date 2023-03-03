@@ -59,10 +59,10 @@ class App extends React.Component {
             <BodySectionWithMarginBottom title="Log in to continue"><Login /></BodySectionWithMarginBottom>
           }
           <BodySection title="News from the School">
-            <p>This is a random text</p>
+            <p>Random Text</p>
           </BodySection>
           <div className={css(footerStyles.footer)}>
-          <Footer />
+            <Footer />
           </div>
         </div>
       </React.Fragment>
@@ -79,11 +79,13 @@ const bodyStyles = StyleSheet.create({
 
 const footerStyles = StyleSheet.create({
 	footer: {
-		position: 'fixed',
-    textAlign: 'center',
-    left: '0',
-    width: '100%',
-    bottom: "0"
+		display: 'flex',
+		flexDirection: 'row',
+		justifyContent: 'center',
+		alignItems: 'center',
+		borderTop: '3px solid #E11D3F',
+		padding: '1rem',
+		fontStyle: 'italic',
 	}
 });
 
