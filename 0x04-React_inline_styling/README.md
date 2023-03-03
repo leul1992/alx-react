@@ -1,0 +1,1 @@
+<h1 align=center>React inline styling</h1>
