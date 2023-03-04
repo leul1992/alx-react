@@ -83,7 +83,7 @@ class Notifications extends React.Component {
 
 const notificationStyles = StyleSheet.create({
 	notifications: {
-    border: '3px dotted var(--holberton-red)',
+    border: '3px dotted red',
     padding: '6px 12px',
     position: 'absolute',
     top: '21px',
