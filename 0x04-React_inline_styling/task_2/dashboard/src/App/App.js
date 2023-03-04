@@ -83,7 +83,6 @@ const footerStyles = StyleSheet.create({
 		flexDirection: 'row',
 		justifyContent: 'center',
 		alignItems: 'center',
-		borderTop: '3px solid #E11D3F',
 		padding: '1rem',
 		fontStyle: 'italic',
 	}
