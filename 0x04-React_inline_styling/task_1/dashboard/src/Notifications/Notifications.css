@@ -9,7 +9,7 @@ li[data-priority="default"] {
 }
 
 li[data-priority="urgent"] {
-	color: var(--holberton-red);
+	color: red;
 }
 
 li[data-notification-type="default"] {
@@ -17,5 +17,5 @@ li[data-notification-type="default"] {
 }
 
 li[data-notification-type="urgent"] {
-	color: var(--holberton-red);
+	color: red;
 }
