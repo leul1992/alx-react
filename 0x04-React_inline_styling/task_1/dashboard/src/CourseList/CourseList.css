@@ -3,11 +3,9 @@ th {
     margin: 0;
     padding: 0;
     text-align: left;
-}
-
-th:first-child {
     text-align: center;
 }
+
 
 td {
     padding-left: 3px;
