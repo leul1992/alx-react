@@ -1,4 +1,4 @@
-import getImmutableObject from "./0-fromjs";
+import getImmutableObject from "./1-map";
 console.log(getImmutableObject(
     {
         fear: true,
