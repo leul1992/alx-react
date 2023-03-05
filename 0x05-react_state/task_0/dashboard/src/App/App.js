@@ -18,6 +18,9 @@ class App extends React.Component {
     this.isLoggedIn = props.isLoggedIn;
     this.logOut = props.logOut;
     this.handleKeyDown = this.handleKeyDown.bind(this);
+    this.handleDisplayDrawer = this.handleDisplayDrawer.bind(this);
+    this.handleHideDrawer = this.handleHideDrawer.bind(this);
+    
     this.listCourses = [
       {id: 1, name: 'ES6', credit: 60},
       {id: 2, name: 'Webpack', credit: 20},
@@ -29,24 +32,16 @@ class App extends React.Component {
       {id: 2, value: "New resume available", type: "urgent"},
       {id: 3, html: {__html: getLatestNotification()}, type: "urgent"},
     ];
-    this.state = {
-      displayDrawer: false
-    };
+    this.state = { displayDrawer: false };
 
-    this.handleDisplayDrawer = this.handleDisplayDrawer.bind(this);
-    this.handleHideDrawer = this.handleHideDrawer.bind(this);
   }
 
   handleDisplayDrawer() {
-    this.setState({
-      displayDrawer: true
-    });
+    this.setState({ displayDrawer: true });
   }
 
   handleHideDrawer() {
-    this.setState({
-      displayDrawer: false
-    });
+    this.setState({ displayDrawer: false });
   }
 
   handleKeyDown(e) {

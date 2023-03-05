@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import NotificationItemShape from './NotificationItemShape';
 import { StyleSheet, css } from 'aphrodite';
 
-class Notifications extends React.PureComponent {
+class Notifications extends React.Component {
   constructor(props) {
     super(props);
     this.markAsRead = this.markAsRead.bind(this);
