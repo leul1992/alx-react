@@ -44,7 +44,6 @@ class Notifications extends React.Component {
             aria-label="Close"
             className={css(notificationStyles.button)}
             onClick={(e) => {
-              console.log('Close button has been clicked');
               this.props.handleHideDrawer();
             }}
             >
