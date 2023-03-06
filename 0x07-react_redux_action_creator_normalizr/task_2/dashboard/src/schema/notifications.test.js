@@ -73,6 +73,6 @@ describe("Test for Notifications.js", () => {
       id: "5debd7642e815cd350407777",
     };
 
-    expect(normalized.entities.notifications["5debd7642e815cd350407777"]).toEqual(notificationDummy);
+    expect(normalized.entities.notification["5debd7642e815cd350407777"]).toEqual(notificationDummy);
   });
 });
