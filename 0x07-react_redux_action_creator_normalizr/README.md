@@ -1,0 +1,1 @@
+<h1 align=center>React Redux action creator+normalizr</h1>
