@@ -1,4 +1,4 @@
-import * as notficationData from '../../../../notifications.json';
+import * as notficationData from '../../dist/notifications.json';
 import { normalize, schema } from "normalizr";
 
 
