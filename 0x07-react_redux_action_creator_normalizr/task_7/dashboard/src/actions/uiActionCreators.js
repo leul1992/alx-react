@@ -12,7 +12,7 @@ export const boundLogin = (email, password) => dispatch(login(email, password));
 
 export const logout = () => ({ type: LOGOUT });
 
-export const boundLogout = () => dispatch(logout());
+export const boundLogout =  => dispatch(logout());
 
 export const displayNotificationDrawer = () => ({
   type: DISPLAY_NOTIFICATION_DRAWER,
